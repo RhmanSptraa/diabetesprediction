@@ -25,4 +25,4 @@ prediction = model.predict(features)[0]
 if prediction == 1:
   st.error("Hasil: Positif Diabetes")
 else:
-st.success("Hasil: Tidak Diabetes")
+  st.success("Hasil: Tidak Diabetes")
