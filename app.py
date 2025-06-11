@@ -16,7 +16,7 @@ age = st.number_input('Age', min_value=1, max_value=120)
 submit = st.form_submit_button("Proses")
 # Ketika tombol ditekan
 if submit:
-# Format input ke bentuk array
+  # Format input ke bentuk array
 features = np.array([[pregnancies, glucose,
 blood_pressure, skin_thickness, insulin, bmi, dpf, age]])
 # Prediksi
